@@ -1,0 +1,8 @@
+.fondo {
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+}
+
+.tarjeta {
+    border-radius: 20px;
+    width: 350px;
+}
