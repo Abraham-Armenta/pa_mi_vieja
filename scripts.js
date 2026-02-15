@@ -7,12 +7,12 @@
 
       if (music.paused) {
         music.play();
-        button.innerHTML = "si quieres puedes ponerla d nuevo :>";
+        button.innerHTML = "si quieres puedes pausarla un poco (ni te imaginas como se llama la canción xd)";
         button.classList.remove("btn-danger");
         button.classList.add("btn-dark");
       } else {
         music.pause();
-        button.innerHTML = "💕 Reproducir música";
+        button.innerHTML = "O si quieres puedes ponerla d nuevo";
         button.classList.remove("btn-dark");
         button.classList.add("btn-danger");
       }
@@ -23,4 +23,4 @@
 
 
     // Establecer volumen al 30%
-  document.getElementById('bg-music').volume = 0.3;
+  document.getElementById('bg-music').volume = 0.2;
